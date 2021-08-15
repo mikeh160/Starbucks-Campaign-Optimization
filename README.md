@@ -11,11 +11,14 @@ In this project, the objective is to perform an A/B testing for the starbucks pr
 
 ## Project Motivation<a name="motivation"></a>
 
-The project is offered by Udacity. The objective is to perform an A/B testing for the starbucks promotional campaign on the evaluation metrics that have already been identified by the starbucks marketing team. These evaluation metrics are set to be Incremental Response Rate(IRR) and Net Incremental Revenue (NIR). Tests for significance will be performed to identify whether the promotion had any effect on the purchasing habit of consumers. Moreover, ML algorithms will be used to better identify the clients that would help in success of the promotional camapaign. 
+The project is offered by Udacity. The objective is to perform an A/B testing for the starbucks promotional campaign on the evaluation metrics that have already been identified by the starbucks marketing team. These evaluation metrics are set to be **Incremental Response Rate(IRR)** and **Net Incremental Revenue (NIR)**. Tests for significance will be performed to identify whether the promotion had any effect on the purchasing habit of consumers. Moreover, ML algorithms will be used to better identify the clients that would help in success of the promotional camapaign. 
 
-$$ IRR = \frac{purch_{treat}}{cust_{treat}} - \frac{purch_{ctrl}}{cust_{ctrl}} $$
 
-$$ NIR = (10\cdot purch_{treat} - 0.15 \cdot cust_{treat}) - 10 \cdot purch_{ctrl}$$
+<img src="https://render.githubusercontent.com/render/math?math=IRR=\frac{purch_{treat}}{cust_{treat}} - \frac{purch_{ctrl}}{cust_{ctrl}}">
+
+
+
+<img src="https://render.githubusercontent.com/render/math?math=NIR = (10\cdot purch_{treat} - 0.15 \cdot cust_{treat}) - 10 \cdot purch_{ctrl}">
 
 ## File Description<a name="files"></a>
 
